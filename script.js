@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
           successToastDetail.innerHTML = `
             <strong>【預約單號：${refId}】</strong><br>
             您好，${name}！我們已收到您關於「<strong>${caseType}</strong>」的諮詢需求（希望時段：${preferredTime}）。<br>
-            事務所助理將盡速以電話（<strong>${phone}</strong>）向您確認確切面談時段與應備書狀資料。
+            事務所助理將盡速向您（<strong>${phone}</strong>）確認確切面談時段與應備書狀資料。
           `;
         }
 
