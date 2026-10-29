@@ -691,6 +691,21 @@ button, input, textarea, select {
   gap: 1.75rem;
 }
 
+@media (min-width: 993px) {
+  .services-grid > .service-card:nth-child(7):last-child {
+    grid-column: 2;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 992px) {
+  .services-grid > .service-card:nth-child(7):last-child {
+    grid-column: 1 / -1;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .service-card {
   background-color: var(--bg-card);
   border-radius: var(--radius-md);
